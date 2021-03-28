@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+    margin: 20px auto 10px auto;
+    border-radius: 5px;
+}
+
+h1 {
+    padding: 15px;
+    color: tomato;
+}
+
+h2 {
+    font-weight: 100;
+    padding: 10px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+#choose-story {
+    width: 500px;
+    margin: auto;
+}
+
+#stories {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.story {
+    padding: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+    overflow: hidden;
+    margin: 5px;
+    width: 400px;
+    text-align: center;
+    transition: .5s;
+    border-radius: 5px;
+}
+
+.story h3 {
+    font-weight: 100;
+}
+
+.story:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: .5;
+}
+
+form {
+    padding: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+    border-radius: 8px;
+    width: 500px;
+    overflow: hidden;
+}
+
+form input,
+.btn {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+}
+
+.btn {
+    background-color: green;
+    color: #ffffff;
+    border-style: none;
+    border-radius: 5px;
+}
+
+#my-story {
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+    overflow: hidden;
+    width: 70%;
+    margin: 10px auto 20px auto;
+    padding: 12px;
+}
+
+#my-story h3 {
+    padding-bottom: 10px;
+}
+
+.word {
+    color: green;
+    font-weight: bold;
+    text-decoration: underline;
+}
